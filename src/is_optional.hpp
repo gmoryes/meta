@@ -1,3 +1,5 @@
+#pragma once
+
 #include <optional>
 #include <type_traits>
 
@@ -20,7 +22,8 @@ template <typename T>
 constexpr bool kIsOptional = details::IsOptional<std::decay_t<T>>::value;
 
 template <typename T>
-constexpr bool IsOptional(T&&) {
+constexpr bool IsOptional(T &&)
+{
   return kIsOptional<T>;
 }
 }  // namespace gmoryes
