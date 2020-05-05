@@ -1,0 +1,23 @@
+
+---
+BasedOnStyle: Google
+IndentWidth: 2
+BreakBeforeBraces: Allman
+ColumnLimit: 100
+
+---
+Language: Cpp
+AccessModifierOffset: -2
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BreakConstructorInitializersBeforeComma: true
+ConstructorInitializerIndentWidth: 2
+DerivePointerAlignment: false
+IndentCaseLabels: false
+NamespaceIndentation: None
+PointerAlignment: Middle
+SortIncludes: true
+Standard: c++17
